@@ -25,12 +25,12 @@ namespace TBQuestGame_S1.DataLayer
                 Name = "Spartacus",
                 LegionName = "LEG IV",
                 Title = Character.CharacterTitle.Praetor,
-                Power = 1450,
+                Power = 450,
                 TacticalAdvantage = 1,
                 Rank = 1,
                 Inventory = new ObservableCollection<GameItemQuantity>()
                 {
-                    new GameItemQuantity(GameItemById("GLD"), 20000),
+                    new GameItemQuantity(GameItemById("GLD"), 150),
                     new GameItemQuantity(GameItemById("GEM"), 0),
                     //new GameItemQuantity(GameItemById("INS"), 1),
                     //new GameItemQuantity(GameItemById("TRI"), 1)
